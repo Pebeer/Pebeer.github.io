@@ -1,11 +1,10 @@
 ------------------
 layout: oeuvre
 title: La Seine au Pecq
-artiste: Andre Derain
-nom: La Seine au Pecq, 1904/05
-dimensions: 146,1 x 119,4 x 8,9 cm
-type: Huile sur toile
-musee: Cincinnati Art Museum
 ---------------------
 
-Blah blah blah
+artiste: Andre Derain </br>
+nom: La Seine au Pecq, 1904/05</br>
+dimensions: 146,1 x 119,4 x 8,9 cm</br>
+type: Huile sur toile</br>
+musee: Cincinnati Art Museum</br>
