@@ -5,7 +5,7 @@ title: Les Oeuvres
 	<h1>{{ page.title }}</h1>
 	<ul class="oeuvre">
 
-	  {% for oeuvre in site.oeuvres %}
+	  {% for oeuvre in site.liste %}
 	    <li> {{ oeuvre.title }} » <a href="{{ oeuvre.url }}" title="{{ oeuvre.title }}">{{ oeuvre.title }}</a></li>
 	  {% endfor %}
 	</ul>
