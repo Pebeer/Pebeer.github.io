@@ -6,6 +6,6 @@ title: Les Oeuvres
 	<ul class="oeuvre">
 
 	  {% for oeuvre in site.oeuvre %}
-	    <li><span>{{ oeuvre.date | date_to_string }}</span> » <a href="{{ oeuvre.url }}" title="{{ oeuvre.title }}">{{ oeuvre.title }}</a></li>
+	    <li> {{ oeuvre.title }} » <a href="{{ oeuvre.url }}" title="{{ oeuvre.title }}">{{ oeuvre.title }}</a></li>
 	  {% endfor %}
 	</ul>
