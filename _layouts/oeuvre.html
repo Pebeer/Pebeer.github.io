@@ -1,9 +1,28 @@
----
-layout: default
----
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-  {{ content }}
-</div>
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+      <ul>
+        <li>{{ page.artiste }}</li>     </br>
+		   	<li>{{ page.nom }}</li>         </br>
+        <li>{{ page.dimensions }}</li>  </br>
+        <li>{{ page.type }}</li>        </br>
+        <li>{{ page.musee }}</li>       </br>
+	    </ul>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="peterbeer2018@u.northwestern.edu">email</a></li>
+	        		<li><a href="https://github.com/Pebeer">github.com/Pebeer</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
